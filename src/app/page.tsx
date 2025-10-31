@@ -1,14 +1,22 @@
 import Gemini from "@/components/modules/home/Gemini";
 import HeroSection from "@/components/modules/home/Hero";
-import { Separator } from "@/components/ui/separator";
+import Features from "@/components/modules/home/Features";
+import Testimonials from "@/components/modules/home/Testimonials";
+import Pricing from "@/components/modules/home/Pricing";
+import FAQ from "@/components/modules/home/FAQ";
+import Footer from "@/components/shared/Footer";
 import React from "react";
 
 const HomePage = () => {
     return (
         <>
             <HeroSection />
-            <Separator className="my-10" />
+            <Features />
             <Gemini />
+            <Testimonials />
+            <Pricing />
+            <FAQ />
+            <Footer />
         </>
     );
 };
